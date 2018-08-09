@@ -1,7 +1,7 @@
 {
   "name": "is-symlink",
   "description": "Returns true if a filepath is a symbolic link",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/is-symlink",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/is-symlink",
@@ -14,18 +14,19 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "mocha"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.7",
-    "mocha": "^2.4.5"
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^5.2.0"
   },
   "keywords": [
     "async",
     "fs",
+    "is",
     "link",
     "lstat",
     "symbolic",
@@ -33,9 +34,6 @@
     "symlink",
     "sync"
   ],
-  "lintDeps": {
-    "ignore": []
-  },
   "verb": {
     "toc": false,
     "layout": "default",
